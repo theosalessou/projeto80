@@ -18,9 +18,9 @@ export default class BottomTabNavigator extends Component {
             tabBarIcon: ({ focused, color, size }) => {
               let iconName;
 //Preencha com o código que falta para adicionar o "route name"
-            if (route.name === "bicycle") {
+            if (route.name === "Alugue uma bicicleta") {
                 iconName = "bicycle";
-              } else if (route.name === "time") {
+              } else if (route.name === "Histórico de Locações") {
                 iconName = "time";
               }  
 
